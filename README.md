@@ -31,6 +31,7 @@ OpenCore EFI for B450 Gaming Plus Max Chipset + Rizen 5 5600 APU with Radeon™ 
 
 ## Issues
 - Slow WiFi Speed
+- IGPU Accelerated Apps causes Heavy Lag
 
 ## Tutorial
 - From Zero Tutorial : https://dortania.github.io/OpenCore-Install-Guide/
