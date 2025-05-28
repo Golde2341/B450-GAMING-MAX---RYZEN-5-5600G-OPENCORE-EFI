@@ -1,7 +1,7 @@
 # Ryzentosh B450x - RYZEN 5 5600G OPENCORE EFI
-OpenCore EFI for B450 Gaming Plus Max Chipset + Rizen 5 5600 APU with Radeon™ Integrated Graphics
+OpenCore EFI for B450 Gaming Plus Max Chipset + Ryzen 5 5600 APU with Radeon™ Integrated Graphics
 > ### Advice
-> - Generate your own SMBIOS, i recommend [OCAT](https://github.com/ic005k/OCAuxiliaryTools) which has a GUI or [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)
+> - Generate your own SMBIOS, I recommend [OCAT](https://github.com/ic005k/OCAuxiliaryTools) which has a GUI or [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)
 > - Use MacBookPro16,3, iMac20,1 or iMacPro1,1 SMBIOS. I recommend using an iMac20,1.
 MacPro7,1 might result in a black screen.
 
@@ -10,14 +10,14 @@ MacPro7,1 might result in a black screen.
 - Motherboard : MSI B450 Gaming Plus Max
 - BIOS : AMI VERSION 7B86vHK
 - CPU : AMD Ryzen 5 5600G with Radeon Graphics
-- RAM : 2 x 16GB DDR4 3200Mhz
+- RAM : 2 x 16GB DDR4 3200MHz
 - iGPU : Radeon™ Vega 7 Integrated Graphics
 - Ethernet : RTL8111H (Not Tested/Added)
 - Audio : Realtek ALC897
 - Boot Mode : UEFI
 - Bootloader : OpenCore 1.0.4
 - OS : macOS Ventura 13.5 & 14.7.4
-- WIFI: Intel AX210 With FENVI PCI Adapter
+- WIFI: Intel AX210 with FENVI PCI Adapter
 
 ## Working ✅
 - CPU Power Management
@@ -27,26 +27,26 @@ MacPro7,1 might result in a black screen.
 - WiFi
 - HDMI
 - Audio (Rear & Front)
-- BlueTooth
+- Bluetooth
 - Etc
 
 > [!TIP]
 > - To make the pc sleep faster run this: 
 >```sudo pmset dwlinterval 0```
-> - Do **NOT** upgrade Bluetooth related Kexts or Bluetooth wont work and the pc will boot up slower.
+> - Do **NOT** upgrade Bluetooth related Kexts or Bluetooth won't work and the PC will boot up slower.
 >- Toggle **SetupVirtualMap** if you are stuck at `[EB|#LOG:EXITBS:START]`
 
 ## Not Working ❌
-- iMessage and FaceTime (They are able to log in but can't communicate)
+- iMessage and FaceTime (Can log in, but cannot communicate)
 - Airdrop
 - VDA Decoding
 - DRM (use Chrome or Firefox for DRM)
 ## Not tested ℹ️
-- Ethernet (kext not added, you can add [this](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#ethernet:~:text=instead-,RealtekRTL8111,with%20your%20Ethernet.%20If%20you%20see%20this%20issue%2C%20try%20older%20versions.,-LucyRTL8125Ethernet) kext for the b450 Gaming + Max MoBo)
+- Ethernet (kext not added, you can add [this](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#ethernet:~:text=instead-,RealtekRTL8111,with%20your%20Ethernet.%20If%20you%20see%20this%20issue%2C%20try%20older%20versions.,-LucyRTL8125Ethernet) kext for the B450 Gaming Plus Max mobo)
 - HandOff
 ## Issues 
-- Stated on [NootedRed FAQ](https://chefkissinc.github.io/applehax/nootedred/#:~:text=Chrome%2C%20Chromium%2Dbased,%2D%2Ddisable%2Dgpu): Chrome, Chromium-based browsers and apps like Sublime Text cause graphical artefacts amongst other problems.
-- Sometimes drag and drop operations wont drop the file. To temporary fix this just sleep and wake the pc.
+- Stated on [NootedRed FAQ](https://chefkissinc.github.io/applehax/nootedred/#:~:text=Chrome%2C%20Chromium%2Dbased,%2D%2Ddisable%2Dgpu): Chrome, Chromium-based browsers and apps like Sublime Text cause graphical artifacts amongst other problems.
+- Sometimes drag and drop operations wont drop the file. To temporarily fix this just sleep and wake the pc.
 
 ## AMD BIOS Settings
 
@@ -71,7 +71,7 @@ All kinds of errors and kernel panics, beyond my responsibility.
 
 
 ## Donating ❤️ (Not to me)
-You can show you appreciation for this EFI by donating to the creator of NootedRed, [ChefKiss](https://github.com/ChefKissInc) to get Hardware Accelerated Chromium and DRM support for AMD IGPUs 😭🙏.
+You can show your appreciation for this EFI by donating to the creator of NootedRed, [ChefKiss](https://github.com/ChefKissInc) to get Hardware Accelerated Chromium and DRM support for AMD IGPUs 😭🙏.
 
 Donate to ChefKiss via [ko-fi](https://ko-fi.com/chefkiss) or Bitcoin at ```bc1qgu56kptepex2csuzl5nhzc4vxuj8c6ggjzhcem```
 
