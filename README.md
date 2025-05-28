@@ -69,8 +69,13 @@ Tutorial on "USB Fixes" related to the UTBMap.kext and SSDT-SLEEP.aml files. Ple
 
 All kinds of errors and kernel panics, beyond my responsibility.
 
-Thanks to Alfinauzikri for repo template: https://github.com/alfinauzikri/B550-5600G-6600XT-Hackintosh/blob/main/README.md?plain=1
 
+## Donating ❤️ (Not to me)
+You can show you appreciation for this EFI by donating to the creator of NootedRed, [ChefKiss](https://github.com/ChefKissInc) to get Hardware Accelerated Chromium and DRM support for AMD IGPUs 😭🙏.
+
+Donate to ChefKiss via [ko-fi](https://ko-fi.com/chefkiss) or Bitcoin at ```bc1qgu56kptepex2csuzl5nhzc4vxuj8c6ggjzhcem```
+
+Thanks to Alfinauzikri for repo template: https://github.com/alfinauzikri/B550-5600G-6600XT-Hackintosh/blob/main/README.md?plain=1
 # Screenshots
 ![2025-05-27_18 38 54](https://github.com/user-attachments/assets/b284dc62-9c32-4a00-b9c7-2546fc5d5c20)
 ![2025-05-27_18 40 55](https://github.com/user-attachments/assets/718df190-c4cb-4329-b2df-33641524fe40)
